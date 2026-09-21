@@ -86,13 +86,6 @@ This repository also contains the supporting lab exercises (Lab 1 and Lab 2) tha
 | `L2 T7 unknown resistor` | Determine an unknown resistance |
 | `L2 T8 determine resistor and show it on OLED` | Resistance measurement with OLED readout |
 
-## Getting started
-
-1. Open [MakeCode](https://makecode.microbit.org/) `TODO: or state if these are MicroPython files`.
-2. Create a new project and import the relevant file from this repository.
-3. Add the OLED extension: **Extensions → search `oled-ssd1306`** `TODO: confirm the extension you used`.
-4. Flash the resulting `.hex` to the micro:bit via USB.
-5. Wire the hardware as per the pin map above, power the pump and valve from the external supply, and share a common ground with the micro:bit.
 
 ## Calibration
 
@@ -113,7 +106,7 @@ pressure_mmHg = (adc_reading - OFFSET) * SLOPE
 - Single-ratio oscillometric estimation is sensitive to cuff fit, arm movement and bleed rate
 - The micro:bit's 10-bit ADC and modest sampling rate limit envelope resolution
 - No motion-artifact rejection
-- Accuracy has not been validated against a clinical standard
+
 
 ## ⚠️ Disclaimer
 
@@ -123,6 +116,3 @@ This is an **educational and prototyping project only**. It is not a medical dev
 
 `TODO: add a license, e.g. MIT`
 
-## Acknowledgements
-
-`TODO: course code, institution, supervisor, teammates.`
