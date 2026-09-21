@@ -90,8 +90,6 @@ The sensor's raw ADC output must be mapped to mmHg before any of the pressure lo
 pressure_mmHg = (adc_reading - OFFSET) * SLOPE
 ```
 
-`TODO: insert your measured OFFSET and SLOPE, and your validation results against a reference monitor.`
-
 ## Limitations
 
 - Single-ratio oscillometric estimation is sensitive to cuff fit, arm movement and bleed rate
@@ -103,7 +101,4 @@ pressure_mmHg = (adc_reading - OFFSET) * SLOPE
 
 This is an **educational and prototyping project only**. It is not a medical device, has not been clinically validated, and must not be used to diagnose, monitor or treat any condition. Do not make health decisions based on its readings. Never leave the cuff inflated unattended.
 
-## License
-
-`TODO: add a license, e.g. MIT`
 
