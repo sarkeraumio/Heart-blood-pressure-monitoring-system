@@ -65,6 +65,7 @@ This repository also contains the supporting lab exercises (Lab 1 and Lab 2) tha
 | `L1 T8 a code that can make the foams oscillate` | Oscillation driver exercise |
 
 ![Lab 1 task 1 Changing Light intensity ](media/light_intensity.png)
+**Figure 1** Lab 1 task 1 Changing Light intensity of the RED color at four different intensity level
 
 ### Lab 2 — OLED display and electrical measurement
 
@@ -78,6 +79,7 @@ This repository also contains the supporting lab exercises (Lab 1 and Lab 2) tha
 | `L2 T6 measure the voltage, current, and power of one component` | V / I / P measurement |
 | `L2 T7 unknown resistor` | Determine an unknown resistance |
 | `L2 T8 determine resistor and show it on OLED` | Resistance measurement with OLED readout |
+
 
 
 ## Calibration
