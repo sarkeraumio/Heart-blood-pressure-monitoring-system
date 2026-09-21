@@ -64,6 +64,8 @@ This repository also contains the supporting lab exercises (Lab 1 and Lab 2) tha
 | `L1 T5 condition like light intensity, smiley face at LED` | Conditional display driven by measured light level |
 | `L1 T8 a code that can make the foams oscillate` | Oscillation driver exercise |
 
+![Lab 1 task 1 Changing Light intensity ](media/light_intensity.png)
+
 ### Lab 2 — OLED display and electrical measurement
 
 | File | Description |
