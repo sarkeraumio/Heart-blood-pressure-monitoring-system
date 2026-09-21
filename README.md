@@ -67,11 +67,6 @@ This repository also contains the supporting lab exercises (Lab 1 and Lab 2) tha
 ![Lab 1 task 1 Changing Light intensity ](media/light_intensity.png)
 **Figure 1** Lab 1 task 1 Changing Light intensity of the RED color at four different intensity level
 
-<p align="center">
-  <img src="media/Task1.gif" alt="LED brightness ramping up and down on the micro:bit display" width="400">
-  <br>
-  <em>Lab 1 Task 1 — varying LED intensity</em>
-</p>
 
 
 ### Lab 2 — OLED display and electrical measurement
