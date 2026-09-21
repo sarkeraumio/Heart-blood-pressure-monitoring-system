@@ -23,23 +23,14 @@ This repository also contains the supporting lab exercises (Lab 1 and Lab 2) tha
 | Component | Notes |
 |---|---|
 | BBC micro:bit (v2 recommended) | Main controller |
-| Gauge pressure sensor | `TODO: part number, e.g. MPS20N0040D / MPX5050GP` |
-| Instrumentation amplifier | `TODO: e.g. HX710B / INA125` — needed to bring the sensor output into the 0–3.3 V ADC range |
-| Air pump (DC motor) | `TODO: rating` |
+| Gauge pressure sensor | MPS20N0040D |
+| Instrumentation amplifier | HX710B INA125 — needed to bring the sensor output into the 0–3.3 V ADC range |
+| Air pump (DC motor) |  5V DC Air pump |
 | Solenoid release valve | For fast deflate / controlled bleed |
-| Motor driver | `TODO: e.g. L9110S / TB6612FNG` — the micro:bit cannot drive the pump directly |
+| Motor driver | L9110S |
 | SSD1306 OLED, 128×64, I²C | Display |
 | Arm cuff + tubing + T-connector | Standard sphygmomanometer cuff |
-| External power supply | `TODO: voltage` — pump and valve must **not** be powered from the micro:bit's 3 V rail |
 
-### Pin map
-
-| Function | micro:bit pin |
-|---|---|
-| Pressure sensor (analog in) | `TODO` |
-| Pump enable | `TODO` |
-| Valve control | `TODO` |
-| OLED SDA / SCL | P20 / P19 |
 
 ## How it works
 
@@ -50,7 +41,7 @@ This repository also contains the supporting lab exercises (Lab 1 and Lab 2) tha
 5. **Estimate SYS/DIA.** Fixed-ratio thresholds are applied to the envelope — systolic is read where amplitude rises through ~0.5 × peak on the high-pressure side, diastolic where it falls through ~0.8 × peak on the low-pressure side.
 6. **Report.** Values are rendered on the OLED and broadcast over radio, then the valve fully opens to release the cuff.
 
-> Ratio constants and the pressure calibration curve are device-specific. See [Calibration](#calibration).
+> Ratio constants and the pressure calibration curve are device-specific.
 
 ## Repository structure
 
